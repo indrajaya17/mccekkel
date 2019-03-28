@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+
+}
+.wrapper{
+	width: 100%;
+	max-width: 1366px;
+	margin: auto;
+
+}
+.bg-header{
+	margin: 0;
+}
+.bg-menu{
+	background-color: #fff;
+	height: 70px;
+}
+nav ul  {
+	list-style-type: none;
+}
+nav ul li{
+	float: right;
+}
+nav ul li.logo{
+	float: left;
+}
+nav ul li a{
+	color: #2C3A47;
+	padding: 25px;
+	display: inline-block;
+	text-decoration: none;;
+}
+nav ul li a:hover{
+	color: #e77f67;
+}
+.banner{
+	height: 550px;
+	background-color: black;
+	background-image:url(../image/calisthenics.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text-banner{
+	text-align: center;
+	color: #ffffff;
+}
+.text-banner h1{
+	padding-top: 250px;
+	font-size: 40px;
+}
+.text-banner p{
+	padding-top: 10px;
+	font-size: 20px;
+}
+.text-banner button{
+	padding: 15px 30px;
+	background-color: transparent;
+	border: 1px solid:#fff;
+	color: #fff;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.bg-content{
+	margin: 0;
+}
+.judul h1{
+	padding: 25px 0;
+	text-align: center;
+}
+.center {
+	max-width: 500px;
+	width: 100%;
+	margin: 0px auto;
+}
+.content{
+	width:350px;
+	height: 350px;
+	background-color: #353b48;
+	float: left;
+	margin: 23px 40px; 
+}
+.content img{
+	width: 100%;
+}
+.content p{
+	text-align: center;
+	color: #fff;
+	padding: 20px 10px;
+	line-height: 1.7;
+}
+.content h3{
+	color: #fff;
+	text-align: center;
+}
+.content2{
+	border: 1px solid #000;
+	text-align: center;
+	padding: 40px;
+}
+.content2 p{
+	text-align: left;
+
+}
+.bg-footer{
+	height: 150px;  
+	width: 100%;
+	background-color: #000;
+	clear: both;	
+}
+.footer{
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
+
