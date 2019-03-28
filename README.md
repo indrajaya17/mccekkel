@@ -1,2 +1,0 @@
-# mccekkel
-biodata saya
